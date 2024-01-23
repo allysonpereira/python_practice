@@ -1,1 +1,7 @@
-{"broker_address": "localhost", "port": 1883, "topic": "test/topic"}
+{  
+    
+    "broker_address": "10.128.37.71",  
+    "port": 1883, 
+    "topic": "test/topic"
+    
+}

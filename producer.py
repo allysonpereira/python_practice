@@ -9,6 +9,6 @@ client = mqtt.Client("P1")
 client.connect(broker_address, port)
 
 while True:
-    message = "Hello!"
+    message = "Hello from MQTT to the Linux Machine!"
     ret = client.publish(topic, message)
     time.sleep(1)
